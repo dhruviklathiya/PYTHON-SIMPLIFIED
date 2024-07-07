@@ -1,0 +1,17 @@
+==> Basic commands for linux
+    //      pwd   => Print working directory -> Provides location of your currrent folder
+        //  ls    => List -> List out all files in directory
+    //      clear => -> clear terminal window
+        //  cd    => change directory -> Can navigate through different directory || folder
+    //      cd F:// => Changes drive location (In windows it's F:)
+        //  mkdir name_of_folder => Make directory -> creates 1 folder name: name_of_folder
+    //      mkdir name of folder => Make directory -> creates 3 folder name: name, of, folder
+        //  mkdir "name of folder" => Make directory -> creates 1 folder name: name of folder
+    //      touch index.py => Creates file -> index.py gets created
+        //  cd .. => Move to parent directory
+    //      cd ./src/DSA => Change directory location to DSA
+        //  rm index.py => Delete index.py file
+    //  rm -rf name_of_folder => Delete folder name name_of_folder
+            |
+            |
+            ===> -rf is a flag for recursive force
