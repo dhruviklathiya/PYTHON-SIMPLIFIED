@@ -1,0 +1,9 @@
+* Python is used in multiple fields like Desktop application, mobile application, website, iot, Data structure and algorithm, AI = Artificial intelligence
+
+* PYTHON has multiple versions but as of now most used version of python is python3.
+
+* python3 was introduce in 2008 which solved the limitations of python2.
+
+* Code of python2 was not supported in python3 this problem is known as "Backward compatibility problem"
+
+* From 2008 till 2020 python gave update for python2 but after 2020 python stopped building python2.
