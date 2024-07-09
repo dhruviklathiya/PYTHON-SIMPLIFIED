@@ -16,3 +16,7 @@ print(_list)
 # remove method : when we do not know index to delete we will use value
 _list.remove(7)
 print(_list)
+
+# Another method to declare list
+new_list = list(range(1,100))
+print(new_list)
