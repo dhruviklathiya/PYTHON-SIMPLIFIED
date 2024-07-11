@@ -7,3 +7,8 @@
 * Code of python2 was not supported in python3 this problem is known as "Backward compatibility problem"
 
 * From 2008 till 2020 python gave update for python2 but after 2020 python stopped building python2.
+
+* Command for running python file:
+    Mac: python3 file_name.py
+    Linux: python3 file_name.py
+    Windows: python file_name.py
