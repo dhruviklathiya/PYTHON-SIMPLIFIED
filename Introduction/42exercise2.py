@@ -4,3 +4,5 @@
 _list = [1,2,3,43,5,32,76,8]
 _result = [i*2 if i%2==0 else -i for i in _list]
 print(_result)
+
+# This topic will require alot of practice
