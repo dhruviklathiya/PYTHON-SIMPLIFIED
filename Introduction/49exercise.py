@@ -17,7 +17,7 @@ def title_string(*args,**kwargs):
     _list = []
     if kwargs["str_rev"]:
         for i in args:
-            _list.append(i[::-1].capitalize())
+            _list.append(i[::-1].upper())
     else:
         for i in args:
             _list.append(i.capitalize())
