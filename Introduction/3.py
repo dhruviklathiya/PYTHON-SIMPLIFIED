@@ -12,5 +12,5 @@ print(f_name+ " " + l_name)
 _num = 100
 print(name_of_variable + " " + str(_num))
 
-# We cannot do arithmetic operations with string but we cal repeat string
+# We cannot do arithmetic operations with string but we can repeat string
 print(l_name * 10)
