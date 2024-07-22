@@ -7,7 +7,7 @@ while i < len(_input):
 
 # Advance version: Not repeating same character
 # _input = input("Enter your name: ")
-# i = 0
+# i = 0 
 # _container = ""
 # while i < len(_input):
 #     if _input[i] not in _container:
