@@ -16,3 +16,13 @@ while i < len(_input):
 #     else:
 #         pass
 #     i+=1
+
+# Another method
+_input = input("Enter your name: ")
+_already_counted = ""
+for i in _input:
+    if i in _already_counted:
+        pass
+    else:
+        print(f"{i} is repeated {_input.lower().count(i.lower())} times in string")
+        _already_counted+=i
