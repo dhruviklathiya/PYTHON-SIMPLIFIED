@@ -18,3 +18,17 @@ else:
         print(sum,end = " ")
         var1 = var2
         var2 = sum
+
+# Fibonacci using list in python
+# _fibonacci = []
+# _fibonacci.append(0)
+# _fibonacci.append(1)
+
+# for i in range(0,10):
+#     if i<2:
+#         continue
+#     var1 = _fibonacci[i-2]
+#     var2 = _fibonacci[i-1]
+#     _fibonacci.append(var1+var2)
+
+# print(_fibonacci)
