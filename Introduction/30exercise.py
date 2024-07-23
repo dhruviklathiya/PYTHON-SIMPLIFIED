@@ -12,17 +12,31 @@ for i in _input:
     _list.append(int(i))
 print(square_this_list(_list))
 
-# Reverse a list using function
-def reverse_this_list(list):
-    reversed_list = []
-    for i in range(1,len(list)+1):
-        reversed_list.append(list[len(list)-i])
-    return reversed_list
 
-print(reverse_this_list(_list))
-# Reverse a list using in-built function
-_list.reverse()
-print(_list)
+_result = []
+
+# Method 1
+# for i in range(0,len(_list)):
+#     _result.append(_list[len(_list)-1-i])
+# print(_result)
+
+# Method 2
+# for i in _list:
+#     _result.insert(0,i)
+
+# print(_result)
+
+# Method 3
+# _list.reverse()
+# print(_list)
+
+# Method 4
+# _result = list(reversed(_list))
+# print(_result)
+
+# Method 4
+# _result = _list[::-1]
+# print(_result)
 
 # Reversing nested elements inside a list
     # ['abc','def'] => ['cba','fed']
