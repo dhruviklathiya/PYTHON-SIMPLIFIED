@@ -26,7 +26,7 @@ _reversed = ""
 if(_string == _string[::-1]):
     print("PALINDROME")
 else:
-    print("NOT PALIMDROME")
+    print("NOT PALINDROME")
 
 # Another method
 _string = input("Enter string for checking: ")
