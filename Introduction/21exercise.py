@@ -28,3 +28,10 @@ if(_string == _string[::-1]):
 else:
     print("NOT PALIMDROME")
 
+# Another method
+_string = input("Enter string for checking: ")
+
+def palindrome_check(_para):
+    return _para == _para[::-1]
+
+print(f"Is string palindromic? ==> {palindrome_check(_string)}")
