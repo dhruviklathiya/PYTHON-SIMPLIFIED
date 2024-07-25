@@ -1,22 +1,22 @@
 # Add and remove items from dictonary
 
-_dictonary = {
+dictionary = {
     "fname":"D",
     "lname":"CODER"
 }
-_dictonary['ADDED'] = "NEW ITEM"
-print(_dictonary)
+dictionary['ADDED'] = "NEW ITEM"
+print(dictionary)
 
-_dictonary.pop('fname')
-print(_dictonary)
+dictionary.pop('fname')
+print(dictionary)
 
 # Error here
-# _dictonary.pop()
-    # .pop() method requires atleast 1 argument if it's working on dictonary because dictonary does not have items in indexed form
+# dictionary.pop()
+    # .pop() method requires atleast 1 argument if it's working on dictionary because dictionary does not have items in indexed form
 
 # Randomly removing item from dictonary
-_dictonary.popitem()
-print(_dictonary)
+dictionary.popitem()
+print(dictionary)
 
 # .pop() returns value
 # .popitem() returns key&value

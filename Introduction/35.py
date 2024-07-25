@@ -43,6 +43,6 @@ if 'fname' in _dictonary:
 if 'CODER' in _dictonary.values():
     print("Present 🙋🏻‍♂️")
 
-# Checking value in dictonaries
+# Checking key in dictonaries
 if 'fname' in _dictonary.keys():
     print("Present 🙋🏻‍♂️")

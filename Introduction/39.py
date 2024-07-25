@@ -23,7 +23,7 @@ print(_dictonary)
 
 
 # Difference in traditional method and get method is about throwing error
-    # get method will not thro error whereas traditional method will throw error
+    # get method will not throw error whereas traditional method will throw error
 result = _dictonary.get('2')
 print(result)
     # If get is unable to find key it will return None
@@ -48,6 +48,7 @@ _copy_dictionary = _dictonary.copy()
 print(_copy_dictionary)
 
 # Copy dictionary with shallow copy
+    # Shallow copy ===> 2 variables pointing to same memory location in this example: _dictonary & _copy_dictionary points to same memory address
 _copy_dictionary = _dictonary
 print(_copy_dictionary)
 

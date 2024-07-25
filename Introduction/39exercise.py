@@ -1,3 +1,4 @@
+# Take input from user and print dictionary containing cube of numbers entered by user
 def _dictionary_cube(n):
     _cube_dict = {}
     for i in range(1,n+1):
@@ -9,3 +10,5 @@ def _dictionary_cube(n):
 _parameter = int(input("Enter number: "))
 result = _dictionary_cube(_parameter)
 print(result)
+# Or
+# print(_dictionary_cube(_parameter))
