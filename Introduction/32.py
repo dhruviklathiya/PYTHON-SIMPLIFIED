@@ -3,7 +3,7 @@
     # Tuple are immutable
     # Tuple cannot be changed
 # Tuple does not have methods like pop, append, extend, insert like list
-# Tuple have onlt 2 method: count, index
+# Tuple have only 2 method: count, index
 
 _tuple = (1,2,3,4,5,1,2,3,4,1,2,3,1,2,1)
 print(_tuple.count(1))
