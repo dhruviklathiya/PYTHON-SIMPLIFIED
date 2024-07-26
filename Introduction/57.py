@@ -1,4 +1,4 @@
-# * operator in zip function
+# * operator in zip function ==> Works as unpacking || unzipping
 # Extract 2 tuples using zip
 
 _tuple = ((1,11),(2,22),(3,33),(4,44),(5,55))
