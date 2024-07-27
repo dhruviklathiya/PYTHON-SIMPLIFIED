@@ -1,4 +1,7 @@
 # Changing function's block of code without changing function itself
+    # In professional language this is known as decoration function
+# Why we need decorative function?
+    # For enhancing or extending capabilities of function
 def function_1():
     print("Hello world")
 
