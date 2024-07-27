@@ -1,4 +1,4 @@
-# function returning a function
+# function returning a function ==> First-class-function
 def outer_function():
     def innner_function():
         print("This is function returned from another function")
