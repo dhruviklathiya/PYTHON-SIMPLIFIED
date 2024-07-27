@@ -2,6 +2,7 @@
 def decorator_function(_function):
     def inner_function(*args,**kwargs):
         print("This is extended line")
+        # _function(*args,**kwargs) # This line is not valid because we must return the output
         return _function(*args,**kwargs)
     return inner_function
 
