@@ -9,5 +9,7 @@ _list = [i for i in range(0,100000000)]
 print(f"Taken time by list: {time.time() - t1}")
 
 t1 = time.time()
-_generator_object = (i for i in range(0,1000000))
-print(f"Taken time by generator: {(time.time() - t1)}")
+_generator_object = (i for i in range(0,100000000))
+t2 = time.time()
+print(f"Taken time by generator: {time.time() - t1}")
+print(f"Output is {int(time.time() - t1)} because of negative exponential")
