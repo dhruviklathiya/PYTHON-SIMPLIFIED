@@ -1,5 +1,6 @@
 # OOP:
     # OOP stands for object-oriented programming
+        # OOP is a way of writing code
 # OOPL:
     # OOPL stands for object-oriented programming language
 
