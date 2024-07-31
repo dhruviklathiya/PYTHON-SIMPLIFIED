@@ -11,4 +11,3 @@ print(car1.carname)
 print(car1.carprice)
 # We can also change name of variable
 print(car1.car_price)
-
