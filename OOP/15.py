@@ -18,3 +18,6 @@ _list.sort()
     # Pyhton is running sort method but we have no idea which sort is being run
         # For knowledge: Python uses Timsort algorithm for sorting list
 print(_list)
+
+# We must encapsulate functions and variable together for using abstraction
+# By default access modifier of python is public so we do not have to make our methods public manually
