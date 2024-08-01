@@ -44,3 +44,20 @@ print(person1.all_combine())
 person1.salary = 100000000
 print(person1.salary)
 print(person1.all_combine())
+
+# # Solution 2 ===> property in class
+class Person:
+    def __init__(self,fname,lname,salary):
+        self.fname = fname
+        self.lname = lname
+        self.salary = max(salary,0) # Minimum salary can be ZERO but it cannot be in negative
+
+    @property
+    def all_combine(self):
+        return f"Firstname is {self.fname} Lastname is {self.lname} salary is {self.salary}"
+
+person1 = Person("Dhruvik","Lathiya",9999999)
+print(person1.all_combine)
+person1.salary = 100000000
+print(person1.salary)
+print(person1.all_combine)
