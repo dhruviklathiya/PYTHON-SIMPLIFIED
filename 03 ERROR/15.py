@@ -1,4 +1,4 @@
-# try - except - else - finally
+# try - except - else
 
 try:
     print("=== Try block execution start")
@@ -13,3 +13,7 @@ else: # will be run if no error found
     print("=== Else block execution start")
     print("Good to go")
     print("Else block execution End ===")
+finally: # This code block will run despite of error comes or not
+    print("=== Finally block execution start")
+    print("This is finally block independent of try & except")
+    print("Finally block execution End ===")
