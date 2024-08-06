@@ -1,2 +1,4 @@
-Updated file
+This is new file created by python
+This is new line
+This is new file created by python
 This is new line
